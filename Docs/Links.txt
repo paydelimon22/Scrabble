@@ -1,0 +1,7 @@
+Recrusos Scrabble:
+
+Vim Config
+https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/
+
+Diccionario:
+https://stackoverflow.com/questions/38416265/c-sharp-checking-if-a-word-is-in-an-english-dictionary

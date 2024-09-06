@@ -1,0 +1,39 @@
+Scrabble General Flow
+
+Flow:
+Start()
+1. Load board
+	i. Instantiate tiles
+
+Loop()
+1. Check if player has a full tile set
+	i. If the tile set is not complete:
+		a. if there are available tiles:
+			- add tiles to make a full set
+
+**Start Player Turn timer**
+2. Player can place tiles anywhere on the board
+	CONDITIONS FOR PLACING TILES:
+		i. Tiles are Connected to previous tiles
+		ii. All tiles placed are consecutive
+		iii. Vertically and horiziontally, the tiles form a word
+			- check dictionary
+	a. End turn when:
+		i. timer ends
+		ii. player ends turn
+
+Classes:
+1. Board
+	i. Tiles
+		a. multiply points
+		b. letter
+3. Player
+	1. Tile Set
+	2. Points
+
+Game Objects:
+- Board
+- Tile Set
+- Exit Button
+- End Turn Button
+- Timer
